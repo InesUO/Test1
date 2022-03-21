@@ -26,7 +26,7 @@ public class test {
 				switch (valorEntradaTeclado) 
 				{
 					case 1:
-						SoyInesNeira();
+						MetodoInesNeira();
 						break;
 					case 2:
 						NoHayAlumno();
