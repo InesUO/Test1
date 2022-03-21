@@ -26,7 +26,7 @@ public class test {
 				switch (valorEntradaTeclado) 
 				{
 					case 1:
-						NoHayAlumno();
+						SoyInesNeira();
 						break;
 					case 2:
 						NoHayAlumno();
@@ -109,5 +109,14 @@ public class test {
 	public static void NoHayAlumno()
 	{
 		System.out.println("Esta opción no tiene asignada nungún alumno/a");
+	}
+	
+	/**
+	 * Este método se encarga de mostrar un mensaje de Ines
+	 * @return void
+	*/
+	public static void MetodoInesNeira()
+	{
+		System.out.println("Hola, soy Ines");
 	}
 }
