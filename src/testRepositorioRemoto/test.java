@@ -29,7 +29,7 @@ public class test {
 						MetodoInesNeira();
 						break;
 					case 2:
-						NoHayAlumno();
+						MetodoCarmenR();
 						break;
 					case 3:
 						NoHayAlumno();
@@ -119,4 +119,10 @@ public class test {
 	{
 		System.out.println("Hola, soy Ines");
 	}
+	
+	public static void MetodoCarmenR()
+	{
+		System.out.println("Hola, soy R, Carmen R");
+	}
+	
 }
